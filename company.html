@@ -19,30 +19,15 @@
   <script src="js/swiper/swiper.js"></script>
   <link href="style.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="img/favicon.ico" />
+  <script type="text/javascript" src="./components/haeder.js"></script>
+  <script type="text/javascript" src="./components/contact.js"></script>
+  <script type="text/javascript" src="./components/footer.js"></script>
 </head>
 
 <body class="page-company">
   <div class="wrapper">
-    <div class="header">
-      <div class="header__logo">
-        <h1 class="logo">
-          <a href="." class="logo__link"><img class="logo__img" src="img/logo.svg" alt=""></a>
-        </h1>
-      </div>
-      <nav class="global-nav">
-        <ul class="global-nav__list">
-          <li class="global-nav__item"><a class="global-nav__link" href="news.html">news</a></li>
-          <li class="global-nav__item"><a class="global-nav__link" href="service.html">service</a></li>
-          <li class="global-nav__item"><a class="global-nav__link" href="works.html">works</a></li>
-          <li class="global-nav__item"><a class="global-nav__link" href="company.html">company</a></li>
-          <li class="global-nav__item"><a class="global-nav__link" href="recruit.html">recruit</a></li>
-          <li class="global-nav__item"><a class="global-nav__link" href="contact.html">contact</a></li>
-        </ul>
-      </nav>
-      <button type="button" class="btn-menu">
-        <span class="btn-menu__line"></span>
-      </button>
-    </div>
+    
+    <script type="text/javascript">header();</script>
 
     <div class="sub-hero">
       <div class="sub-hero__inner">
@@ -157,45 +142,11 @@
           </div>
         </div>
       </section>
-
-      <section class="contact">
-        <div class="l-inner">
-          <div class="contact__heading">
-            <h2 class="heading-primary">
-              contact<span class="heading-primary__sub">お問い合わせ</span>
-            </h2>
-          </div>
-          <div class="contact__body">
-            <div class="contact__text">
-              <p>Webサイトの制作のご依頼やお見積りなど、<br class="u-sp-only">お気軽にご相談ください。</p>
-            </div>
-          </div>
-          <div class="contact__link">
-            <a href="contact.html" class="btn">more</a>
-          </div>
-        </div>
-      </section>
+      
+      <script type="text/javascript">contact();</script>
     </div>
 
-    <footer class="footer">
-      <nav class="footer-nav">
-        <ul class="footer-nav__list">
-          <li class="footer-nav__item"><a class="footer-nav__link" href=".">HOME</a></li>
-          <li class="footer-nav__item"><a class="footer-nav__link" href="news.html">news</a></li>
-          <li class="footer-nav__item"><a class="footer-nav__link" href="service.html">service</a></li>
-          <li class="footer-nav__item"><a class="footer-nav__link" href="works.html">works</a></li>
-          <li class="footer-nav__item"><a class="footer-nav__link" href="company.html">company</a></li>
-          <li class="footer-nav__item"><a class="footer-nav__link" href="recruit.html">recruit</a></li>
-          <li class="footer-nav__item"><a class="footer-nav__link" href="contact.html">contact</a></li>
-        </ul>
-      </nav>
-      <div class="copyright">
-        <a href="." class="copyright__link">&copy;PON DESIGN</a>
-      </div>
-    </footer>
-    <div class="page-top">
-      <a href="header" class="page-top__link"><i class="fas fa-arrow-up" aria-hidden="true"></i></a>
-    </div>
+    <script type="text/javascript">footer();</script>
   </div>
 
   <script src="/js/jquery-3.5.1.min.js"></script>
